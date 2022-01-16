@@ -1,6 +1,6 @@
 # newsAPI
 
-## [http://144.217.13.121](https://144.217.13.121)
+## [http://144.217.13.121](http://144.217.13.121)
 
 ## features
 - enter keywords to return up to 10 news articles
