@@ -40,6 +40,7 @@ var search = function() {
             })
             .then((data) => {
                 for (article of data) {
+                    // insert links
                     a = document.createElement('A');
                     a.text = article.title;
                     a.href = article.link;
@@ -56,6 +57,7 @@ var search = function() {
                 }
 
             })
+        // hide input and button for completed search fieldset
         new_search.querySelector('input').hidden = true;
         new_search.querySelector('button').hidden = true;
         search();
