@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 CORS(app)
 
-api_key = 'a7pdy0oAvc522ExlJYQePiZhZtG1jBW7IwUOna2atPQ'
+api_key = ''
 
 @app.route('/<query>', methods=['GET'])
 def newscatcher(query):
