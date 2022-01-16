@@ -1,0 +1,19 @@
+server {
+       listen 80;
+       listen [::]:80;
+
+       server_name example.ubuntu.com;
+
+       location / {
+       root /var/www/news;
+       index index.html;
+	     }
+
+      location /api {
+       rewrite ^/api/(.*) /$1 break;
+       proxy_pass http://127.0.0.1:8000;
+       proxy_set_header Host $host;
+       proxy_set_header X-Real-IP 144.217.13.121;
+      }
+
+}
