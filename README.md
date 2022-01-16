@@ -1,6 +1,7 @@
 # newsAPI
-
-## [http://144.217.13.121](http://144.217.13.121)
+Utilzies [Newscatcher API](https://docs.newscatcherapi.com/api-docs/endpoints/search-news) to deliver search results
+    
+## Goto: [http://144.217.13.121](http://144.217.13.121)
 
 ## features
 - enter keywords to return up to 10 news articles
