@@ -9,9 +9,10 @@ Utilzies [Newscatcher API](https://docs.newscatcherapi.com/api-docs/endpoints/se
 - duplicate searches are caught, and position the viewport to the existing results
 - loading ticker appears while api fetches
 - search keywords are validated on the front end
-- displays error message if not found
+- displays error message if news not found
 
 ## requirements
+- host server (VPS)
 - ubuntu
 - nginx server
 - python3
