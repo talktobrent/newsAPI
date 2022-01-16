@@ -14,4 +14,4 @@
 - ubuntu
 - nginx server
 - python3
-- python packages: flask, requests, flask-cors
+- python packages: flask, requests, flask-cors, gevent
