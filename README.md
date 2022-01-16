@@ -1,5 +1,7 @@
 # newsAPI
-Utilzies [Newscatcher API](https://docs.newscatcherapi.com/api-docs/endpoints/search-news) to deliver search results
+- Utilzies [Newscatcher API](https://docs.newscatcherapi.com/api-docs/endpoints/search-news) to deliver search results
+- Basic API running on Ubuntu/Python/Flask
+- Basic front end using HTML and Javascript
     
 ## Goto: [http://144.217.13.121](http://144.217.13.121)
 
